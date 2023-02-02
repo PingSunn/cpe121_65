@@ -6,7 +6,7 @@ public class ex2_1 {
 
 	public static void main (String[] args) {
 		
-		//Decalre var
+		//Declare var
 		double a, b, c, d, e, f, x, y;
 		
 		//create Obj
