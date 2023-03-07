@@ -9,18 +9,19 @@ public class ex2_1 {
 		//Decalre var
 		double a, b, c, d, e, f, x, y;
 		
-		//create Obj
-		Scanner sc = new Scanner(System.in);
+		try (//create Obj
+		Scanner sc = new Scanner(System.in)) {
+			System.out.print("Enter a, b, c, d, e, f : ");
+			
+			a = sc.nextDouble();
+			b = sc.nextDouble();
+			c = sc.nextDouble();
+			d = sc.nextDouble();
+			e = sc.nextDouble();
+			f = sc.nextDouble();
+		}
 		
-		System.out.print("Enter a, b, c, d, e, f : ");
-		
-		a = sc.nextDouble();
-		b = sc.nextDouble();
-		c = sc.nextDouble();
-		d = sc.nextDouble();
-		e = sc.nextDouble();
-		f = sc.nextDouble();
-/* 		a = 1.0;
+		/* 		a = 1.0;
 		d = 4.0;
 		b = 2.0;
 		c = 1.0; */
