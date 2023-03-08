@@ -7,9 +7,12 @@ public class ex6_5 {
         array = new double[5];
 
         for (int i = 0; i < array.length; i++) {
+            System.out.print("Read a number : ");
             array[i] = sn.nextDouble();
         }
-
+        array_5 arr = new array_5(array);
+        
+        arr.display();
         sn.close();
     }
 }
