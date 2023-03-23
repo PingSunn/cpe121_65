@@ -63,9 +63,9 @@ public class ex6_6 {
         }
         return c;
     }
-    array_6 arr = new array_6()
-    arr.multiplyMatrix()
+    array_6 arr = new array_6();
+    arr.multiplyMatrix();
 
     double result = multiplyMatrix(arr, arr2);
-    System.out.print("Result : " + show57star())
+    System.out.print("Result : " + show57star());
 }
