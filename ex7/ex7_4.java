@@ -16,9 +16,9 @@ public class ex7_4 {
         for (int i = 0; i < input.length(); i++) {
             char currentChar = input.charAt(i);
 
-            if (Character.isDigit(currentChar)) {
+            if (Character.isDigit(currentChar)) { //ถ้าเป็นตัวเลข
                 currentNumber += currentChar;
-            } else if (!currentNumber.isEmpty()) {
+            } else if (!currentNumber.isEmpty()) { //ถ้าเป็นตัวอักษร แล้ว currentNumber ไม่ว่างเปล่า (มีตัวเลขก่อนหน้านั้น)
                 sum += Integer.parseInt(currentNumber);
                 currentNumber = "";
             }
