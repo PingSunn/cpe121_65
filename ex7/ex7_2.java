@@ -10,13 +10,11 @@ public class ex7_2 {
         } else {
             System.out.print(slip2Position(text));
         }
-        
-
     }
+    
     public static String slip2Position(String text) {
         String tempText = text.substring(0, 2);
         text = text.substring(2);
         return text + tempText;
     }
-    
 }
