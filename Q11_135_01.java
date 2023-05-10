@@ -12,7 +12,7 @@ public class Q11_135_01 {
 
         //Label
         JPanel zone1 = new JPanel();
-        zone1.setLayout(new FlowLayout());
+        zone1.setLayout(new GridLayout(1,1));
         JLabel label = new JLabel("*** Please Login ***");
         label.setForeground(Color.red);
         panel.add(label);
@@ -46,7 +46,7 @@ public class Q11_135_01 {
         zone4.add(new JRadioButton("Oth"));
         panel.add(zone4);
 
-        //
+        //List
         JPanel zone5 = new JPanel();
         zone5.setLayout(new GridLayout(1,2));
         zone5.add(new JComboBox<>(type));
@@ -75,11 +75,8 @@ public class Q11_135_01 {
         subZone6.add(new JButton("%"));
         subZone6.add(new JButton("/"));
         zone6.add(subZone6, BorderLayout.CENTER);
+        zone6.add(new JButton("Enter"), BorderLayout.SOUTH);
         panel.add(zone6);
-
-
-
-
 
         frame.add(panel);
         frame.setSize(400, 600);
