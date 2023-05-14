@@ -8,7 +8,7 @@ public class Q11_135_01 {
         JFrame frame = new JFrame("CPE 121 : Quiz 11 GUI");
 
         JPanel panel = new JPanel();
-        panel.setLayout(new GridLayout(6, 1));
+        panel.setLayout(new GridLayout(7, 1));
 
         //Label
         JPanel zone1 = new JPanel();
@@ -79,7 +79,7 @@ public class Q11_135_01 {
         panel.add(zone6);
 
         frame.add(panel);
-        frame.setSize(400, 600);
+        frame.setSize(400, 800);
         frame.setLocationRelativeTo(null); // Center a frame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true); // Display the frame
