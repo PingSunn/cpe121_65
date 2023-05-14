@@ -13,7 +13,7 @@ public class Q11_135_01 {
         //Label
         JPanel zone1 = new JPanel();
         zone1.setLayout(new GridLayout(1,1));
-        JLabel label = new JLabel("*** Please Login ***");
+        JLabel label = new JLabel("*** Please Login ***",SwingConstants.CENTER);
         label.setForeground(Color.red);
         panel.add(label);
 
